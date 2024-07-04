@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Day';
+    src: url(font/Day.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+}
+
+.Fondo{
+    height: 100%;
+    width: 100%;
+    background-image: url('img/el-chavo-torta-de-jamon.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+.Boton{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #508d1e;
+    border-width: 3px;
+    border-radius: 15px;
+    cursor: pointer;
+    border-style: ridge;
+    border-color: bisque;
+}
+
+.Boton:hover {
+    background-color: #376115;
+    color: #f1f1f1;
+}
+
+/* NAV */
+
+nav{
+    position: fixed;
+    top: 0px;
+    width: 65%;
+    background-color: rgb(248, 157, 45);
+    text-align: center;
+    z-index: 20;
+    translate: 27%;
+}
+
+a{
+    font-family: 'Zen Loop', cursive;
+    font-size: 1.5rem;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 2px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bolder;
+    color: blue;
+}
+
+section{
+    margin-top: 30px;
+    text-align: justify;
+    position: absolute;
+    left: 65%;
+    height: 100%;
+    width: 300px;
+}
+
+img{
+    width: 30%;
+}
+
+article>div{
+    margin-left: 25%;
+}
+
+#titulos{
+    margin-top: 30px;
+}
+
+
+.contenedor {
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 15px;
+    z-index: 0;
+}
+.sticky.Tapa {
+    z-index: 7;
+}
+.sticky.Aguacate {
+    z-index: 6;
+}
+.sticky.Cebolla {
+    z-index: 5;
+}
+.sticky.Jitomate {
+    z-index: 4;
+}
+.sticky.Lechuga {
+    z-index: 3;
+}
+.sticky.Jamon {
+    z-index: 2;
+}
+.sticky.Base {
+    z-index: 1;
+}
+
+
